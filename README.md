@@ -30,3 +30,11 @@
 Rune
 ### rune: 
 - Alias for int32, used to represent Unicode characters.
+
+----
+
+### interesting bookstores
+
+```bash
+  go get github.com/shopspring/decimal
+```
