@@ -34,7 +34,28 @@ Rune
 ----
 
 ### interesting bookstores
+- Shopspring Decimal Library:
+> Use this for precise decimal calculations:
+```bash
+ go get github.com/shopspring/decimal
+```
+----
+
+### Structure projects
 
 ```bash
-  go get github.com/shopspring/decimal
+| cmd          # Entry point for your application
+   | domain     # Domain-specific logic
+   | routes     # Routing definitions
+| internal      # Private application and library code
+   | models     # Data models
+   | utils      # Utility functions
+| ui            # User interface resources
+   | html       # HTML templates
+   | static
+      | assets  # Images, fonts, etc.
+      | css     # Stylesheets
+
+go.mod          # Go module definition file
+
 ```
